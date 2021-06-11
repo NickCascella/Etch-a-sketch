@@ -1,0 +1,29 @@
+body {
+   border: 5px solid black;
+   width: 500px;
+   margin: auto;
+   margin-top:200px;
+}
+
+#parent{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 500px;
+    width: 500px;
+   
+    
+}
+
+.test {
+   transition-duration: .5s
+}
+
+
+
+#clear{
+  padding: 10px;  
+  margin-left: 190px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
