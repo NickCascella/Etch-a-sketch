@@ -1,18 +1,16 @@
 body {
-   border: 5px solid black;
    width: 500px;
    margin: auto;
-   margin-top:200px;
+   margin-top: 300px;
 }
 
 #parent{
+    border: 5px solid black;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     height: 500px;
-    width: 500px;
-   
-    
+    width: 500px;  
 }
 
 .test {
@@ -20,10 +18,10 @@ body {
 }
 
 
-
 #clear{
   padding: 10px;  
   margin-left: 190px;
   margin-top: 20px;
   margin-bottom: 20px;
+  border-radius: 5px;
 }
